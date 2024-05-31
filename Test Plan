@@ -1,0 +1,73 @@
+High-Level Test Plan for "Rent a Car" Functionality
+1. Introduction
+The "Rent a Car" functionality on Lyft's website allows users to rent vehicles directly through the platform. This test plan aims to ensure that the rental process is smooth, reliable, and user-friendly, covering all critical scenarios including both positive and negative test cases.
+
+2. Objectives
+Validate the "Rent a Car" form functionality.
+Ensure the form handles various input scenarios correctly.
+Verify the user experience is seamless and error-free.
+3. Scope
+The scope of testing includes functionality, usability, and error handling of the "Rent a Car" form.
+Both web and mobile versions of the Lyft rental page will be tested.
+Testing will cover different browsers and operating systems to ensure compatibility.
+4. Test Strategy
+Functional Testing: Verify that the form behaves as expected with valid and invalid inputs.
+Usability Testing: Ensure the form is easy to use and understand.
+Compatibility Testing: Test the form on different browsers and devices.
+Security Testing: Ensure the form handles data securely.
+5. Resources
+Testers with experience in web application testing.
+Test environments including different browsers and devices.
+Test data representing both valid and invalid input scenarios.
+6. Test Scenarios
+Critical Positive Scenario
+Scenario Name: Successful Car Rental
+
+Preconditions:
+
+The user is logged in.
+The user has a valid payment method on file.
+Steps:
+
+Navigate to the "Rent a Car" page on Lyft's website.
+Select the desired rental dates.
+Choose a car from the available options.
+Enter valid personal details (e.g., name, contact information).
+Confirm the rental details and proceed to payment.
+Complete the payment process.
+Expected Results:
+
+The rental process completes successfully.
+The user receives a confirmation message and email with rental details.
+The rental information is updated in the user's account.
+Critical Negative Scenario
+Scenario Name: Invalid Payment Method
+
+Preconditions:
+
+The user is logged in.
+The user does not have a valid payment method on file or the payment method is expired.
+Steps:
+
+Navigate to the "Rent a Car" page on Lyft's website.
+Select the desired rental dates.
+Choose a car from the available options.
+Enter valid personal details (e.g., name, contact information).
+Confirm the rental details and proceed to payment.
+Enter payment details with an invalid or expired payment method.
+Expected Results:
+
+The system detects the invalid payment method.
+An error message is displayed informing the user about the invalid payment method.
+The user is prompted to enter valid payment details.
+The rental process does not proceed until a valid payment method is provided.
+7. Test Execution
+Execute the test cases in the test environment.
+Document any defects or issues found.
+Retest after defects are fixed.
+8. Reporting
+Provide a summary of the test results.
+Highlight any critical issues found during testing.
+Recommend any necessary changes or improvements.
+9. Conclusion
+The "Rent a Car" functionality is crucial for Lyft's service offerings. Ensuring this feature works seamlessly will enhance user satisfaction and trust in Lyft's services. This test plan outlines the critical areas to focus on to achieve a reliable and user-friendly car rental experience.
